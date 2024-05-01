@@ -7,6 +7,7 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 
 h1,
@@ -33,24 +34,49 @@ p {
 
 .btn {
   display: inline-block;
-  padding: 15px 25px; 
+  padding: 15px 25px;
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
+  border: 0px;
+  cursor: pointer;
 }
 
 .btn-primary {
   background: white;
-  color: #222;  
+  color: #222;
 }
 
 .btn-primary:hover {
   background: #222;
   color: white;
 }
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+
+}
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  max-width: 1000px;
 }
 
 /* Header */
@@ -118,4 +144,43 @@ p {
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.9em;
+}
+
+/* features */
+
+.features {
+  padding: 100px 0 100px 0;
+  text-align: center;
+  overflow: auto;
+}
+.feature {
+  float: left;
+  width: 50%;
+}
+
+/* person */
+
+.person {
+  height: 400px;
+  background: url(./images/cafe3.jpg) center center/cover;
+}
+
+/* reservation  */
+
+.reservation {
+  padding: 100px 0 0 100px;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
 }
