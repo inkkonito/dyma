@@ -61,7 +61,6 @@ p {
   background: white;
   color: #222;
   border: 1px solid #222;
-
 }
 .my-10 {
   margin-top: 10px;
@@ -79,6 +78,27 @@ p {
   max-width: 1000px;
 }
 
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+}
+
+.chip-purple {
+  background: #be418c;
+
+}
+.chip-brown {
+background: #8c5e24;
+}
 /* Header */
 
 .header {
@@ -183,4 +203,24 @@ footer {
 
 footer p {
   margin-bottom: 0px;
+}
+
+/* where  */
+
+.where {
+  padding: 100px 0 100px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
 }
